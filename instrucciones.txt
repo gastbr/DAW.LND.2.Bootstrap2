@@ -1,0 +1,82 @@
+A6.1 - Actividad sobre "Tipografías y Colores" en Bootstrap
+
+    Esta actividad que se solicita tendrá 2 entregas:
+        La del trabajo que se realizará el día de clase con un valor del 30% del total y la que se podrá modificar en casa con el otro valor del 70%. La actividad tiene varios días a posteriori para realizar dicha segunda entrega.
+        Las entregas tienen que estar comprimidas y separadas como: "Entrega 1 Clase" y "Entrega 2 Final"
+        Este es el enunciado del Ejercicio.
+        
+        Crear una página en html sin enlaces con modelo semántico en donde representas los colores y los textos de bootstrap.
+        Basarse en los ejemplos:
+            -Apartado 1: https://www.w3schools.com/bootstrap5/bootstrap_typography.php ( Todos tienen que estar reflejados, excepto el apartado "Más clases de tipografía")
+            -Apartado 2:https://www.w3schools.com/bootstrap5/bootstrap_colors.php (Todos tienen que estar reflejados)
+
+Nota: Hay que tomar en cuenta que en los apartados mencionados de w3school se ha colocado la palabra (Todos tienen que estar reflejados.).
+
+De esta manera se evaluará:
+    Apartado 1: 3.5 ptos.
+        Todas las etiquetas-clases bien aplicadas 3.5 ptos / Más de 20 etiquetas-clases, pero no todas, además bien aplicadas 2.75 ptos / Cualquiera de las dos anteriores pero con fallos de aplicación 1.75 ptos / Entre 10 y 20 etiquetas-clases bien aplicadas 0.75 ptos.
+        
+    Apartado 2:  3.5 ptos.
+        Todas las etiquetas-clases bien aplicadas 3.5 ptos / Más de 18 etiquetas-clases, pero no todas, además bien aplicadas 2.75 ptos / Cualquiera de las dos anteriores pero con fallos de aplicación 1.75 ptos / Entre 10 y 20 etiquetas-clases bien aplicadas 0.75 ptos. / Menos de 10 etiquetas-clases o la anterior con fallos 0.25 ptos.
+        
+    Modelo Semántico: 3 ptos. (Header, Main, Article, Section, Aside, Footer).
+        El estilo que se ha implementado (Se tomará en cuenta la cantidad de elementos y la forma en la que se han aplicado):
+        
+    Muy brillante 3 ptos. / Bueno 2 ptos. / Regular 1 pto. / Bajo 0.5 ptos.
+
+    --------------------------------------
+
+    TYPOGRAPHY
+        <h1> - <h6> / .h1 - .h6
+        .display-1 to .display-6 (mas grandes que H)
+        <small> o .small (texto secundario)
+        <mark> o .mark (resaltado amarillo)
+        <abbr> (subrayado de puntos, para siglas o abreviaturas)
+        <blockquote> o .blockquote (citas)
+        .blockquote-footer (para nombrar citas al pie)
+
+        LISTAS DESCRIPTIVAS
+            <dl>
+                <dt>Coffee</dt>
+                <dd>- black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>- white cold drink</dd>
+            </dl>    
+
+        <code> (palabras resaltadas en rojo y console, para código)
+        <kbd> (fondo negro y redondeado, para shortcuts)
+        <pre> (consoles y justificado, para varias lineas de codigo)
+
+    COLORES
+
+    The classes for text colors are:
+        .text-muted
+        .text-primary
+        .text-success
+        .text-info
+        .text-warning
+        .text-danger
+        .text-secondary
+        .text-white
+        .text-dark
+        .text-body (default body color/often black)
+        .text-light
+
+        You can also add 50% opacity for black or white text with the .text-black-50 or .text-white-50 classes.
+
+    BG COLOR
+        The classes for background colors are:
+            .bg-primary
+            .bg-success
+            .bg-info
+            .bg-warning
+            .bg-danger
+            .bg-secondary
+            .bg-dark and
+            .bg-light.
+
+        The .bg-color classes above does not work well with text, or atleast then you have to specify a proper .text-color class to get the right text color for each background.
+
+        However, you can use the .text-bg-color classes and Bootstrap will automatically handle the appropriate text color for each background color:
+
+
